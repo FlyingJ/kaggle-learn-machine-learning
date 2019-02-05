@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 
 if __name__ == '__main__':
-    iris_data_file = '~/anaconda3/lib/python3.6/site-packages/pandas/tests/data/iris.csv'
+    iris_data_file = './data/iris.csv'
     print('Data file location: {}'.format(iris_data_file))
     
     print('Reading data file...')
